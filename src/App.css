@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.img-thumbnail {
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.bg-kalx {
+  background-color: #d7fad7;
+}
+
+.bg-assassin {
+  background-color: #ffe6e6;
+}
+
+.bg-community {
+  background-color: #d1d7ff;
+}
+
+.action-btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 50rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  text-decoration: none; /* Remove underline */
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.action-btn:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.action-btn:active {
+  background-color: #888;
+  color: #fff;
+}
